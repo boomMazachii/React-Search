@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+@font-face{
+  font-family: 'Kanit';
+  src: url('https://fonts.googleapis.com/css?family=Kanit');
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  text-align: center;
+  color: #009CCD;
+  font-size: 65px;
+  font-family: 'Kanit';
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.searchBox{
+  width: 25%;
+  height: 15%;
+  border: 1px solid c;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.center {
+  margin: 60%;
+}
+
+.img{
+  display: block;
+  margin-left: 0px;
+  margin-right: 15px;
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.img2{
+  display: inline;
+  object-fit: cover;
+  object-position: center center;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+.paragraph{
+  font-family: 'Kanit';
+  margin-right: 0%;
+  font-size: 20px;
+  color: black;
+}
+.container { 
+  font-family: 'Kanit';
+  width: 50px;
+  font-size: 16px;
+  color: gray;
+ }
+.photosL{
+  margin-left: 5px;
+  margin-top: 0px;
+  }
+.detailL{
+  margin-top: 2%;
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-bottom: 2%;
+}
+.tData{
+  /* margin-left: 10px; */
+  padding-left: 45px;
+  /* padding-right: 340px; */
+}
+.font{
+  font-family: 'Kanit';
+  font-size: 14px;
+  padding-top:16px ;
+}
+.tags{
+  flex-direction: row;
+  display: flex;
+  flex-basis: auto;
+}
+.button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  text-decoration: underline;
+  font-family: 'Kanit';
+  font-size: 14px;
+}
